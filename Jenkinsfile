@@ -5,7 +5,7 @@ pipeline {
         stage('build') {
         steps {
             sh 'cat f1.txt'
-            sh 'pwd ; ls-l' 
+            sh 'pwd ; ls -l' 
         }
     }
 }
